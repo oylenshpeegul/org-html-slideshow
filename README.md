@@ -49,9 +49,9 @@ to the directory containing your .org file:
     #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="projection.css" media="projection" />
     #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="presenter.css" media="presenter" />
 
-    #+BEGIN_HTML
+    #+BEGIN_EXPORT html
     <script type="text/javascript" src="org-html-slideshow.js"></script>
-    #+END_HTML
+    #+END_EXPORT
 
     # Local Variables:
     # org-html-head-include-default-style: nil
